@@ -16,7 +16,7 @@ if tracker == "01" or tracker == "1" :
             os.system(" apt update && apt upgrade ")
             os.system(" pkg install python2 ")
             os.system(" git clone https://github.com/Bhai4You/Bull-Attack ")
-            os.system(" mv Bull-Attack ~")
+            os.system(" mv Bull-Attack $HOME ")
             print (colored("\n INSTALATION complete!!! ", "green"))
             print (colored("youtube tutorial for usage \n  https://youtu.be/mnQj_Weparc ", "cyan"))
 elif tracker == "02" or tracker == "2" :
@@ -24,7 +24,7 @@ elif tracker == "02" or tracker == "2" :
             os.system("apt upgrade && apt update ")
             os.system(" pkg install python ")
             os.system(" git clone https://github.com/GitHackTools/BillCipher ")
-            os.system(" mv BillCipher ~ ")
+            os.system(" mv BillCipher $HOME ")
             print (colored(" \n ##### INSTALATION Completed!!!", "green"))
             print (colored(" youtube tutorial for usage \n https://youtu.be/Xzmjqx7YXY ", "cyan"))
 elif tracker == "03" or tracker == "3" :
@@ -32,7 +32,7 @@ elif tracker == "03" or tracker == "3" :
            os.system(" apt upgrade && apt update ")
            os.system(" pkg install php ")
            os.system(" git clone https://github.com/Tuhniushubra/RED_HAWK ")
-           os.system(" mv RED_HAWK ~ ")
+           os.system(" mv RED_HAWK $HOME ")
            print (colored(" INSTALATION Complete!! ", "green"))
            print (colored(" youtube tutorial for usage \n https://youtu.be/XoW08s6leTK ", "cyan"))
 elif tracker == "04" or tracker == "4" :
@@ -40,7 +40,7 @@ elif tracker == "04" or tracker == "4" :
            os.system(" apt upgrade && apt update ")
            os.system(" pkg install python2 ")
            os.system(" git clone https://github.com/S0md3v/ReconDog ")
-           os.system(" mv ReconDog ~ ")
+           os.system(" mv ReconDog $HOME ")
            print (colored("\n INSTALATION Complete!! ", "green"))
            print (colored(" youtube tutorial for usage \n https://youtu.be/K6unovN21ao ", "cyan"))
 elif tracker == "05" or tracker == "5" :
@@ -48,7 +48,7 @@ elif tracker == "05" or tracker == "5" :
            os.system(" apt upgrade && apt update ")
            os.system(" pkg install python ")
            os.system(" git clone https://github.com/maldevel/IPGeoLocation ")
-           os.system(" mv IPGeoLocation ~ ")
+           os.system(" mv IPGeoLocation $HOME ")
            print (colored(" INSTALATION Completed!! ", "green"))
            print (colored("Youtube tutorial for usage \n https://youtu.be/f_brlucTTxg ", "cyan"))
 else :
